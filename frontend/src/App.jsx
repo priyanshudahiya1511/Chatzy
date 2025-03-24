@@ -1,10 +1,13 @@
 import React from "react"
+import Login from "../pages/login/Login"
+import Signup from "../pages/signup/Signup"
+import Home from "../pages/home/Home"
 
 function App() {
 
   return (
-    <div>
-      <h1 className="text-red-500 text-[400px]">HELLO</h1>
+    <div className="p-4 h-screen flex items-center justify-center">
+      <Home/>
     </div>
   )
 }
