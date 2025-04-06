@@ -19,7 +19,7 @@ export const SocketContextProvider = ({children}) =>{
             });
             setSocket(socket);
             
-            // socket.on method is used to listen to events. can be used on both client and server side
+            // socket.on method is used to listen to events. it can be used on both client and server side 
             socket.on("getOnlineUsers",(users) =>{
                 setOnlineUsers(users)
             })
