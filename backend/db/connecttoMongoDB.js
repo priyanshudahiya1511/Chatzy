@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const connecttoMongoDB = async() =>{
     try{
-        await mongoose.connect(process.env.MONGO_URI)
+        await mongoose.connect("https://chatzy-l42t.onrender.com")
         console.log("connected to mongodb")
     }
     catch(error){
